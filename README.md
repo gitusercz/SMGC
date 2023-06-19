@@ -1,10 +1,11 @@
 # SMGC - Shelly Measurement Graph Creator
 I recently bought a Shelly Power meter. It is a smart plug with remote control feature. I bought it for its capability to measure power. 
-Image of the Shelly Smart Plug.
+![Image of a Shelly plug and its box](/resources/Shelly_img.png)
 
 ## 1. Setting up the plug
 Setting up the plug is easy. If you are also interested only to use it as a power meter, connecting to the cloud service is not necessary. In your router admin site, find out what is its MAC address, and I recommend to set a rule to give a static IP for the power meter. That way the power meter shows up on the same IP address after a router / Shelly reboot. 
 If you know the IP address, you can query meter status in the browser: 
+![Image of a Shelly plug's built in webserver content](/resources/meter.png)
 
 **SMGC** relies on fields: 
 - power
