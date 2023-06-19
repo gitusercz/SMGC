@@ -30,10 +30,15 @@ Then open the config.ini file, set '24h' or 'streak' as workmode. Add a prefix f
 
 When streak is over or midnight passes, the graph file is ready. And saved into a subfolder. 
 
+## 4. Some example graphs depicting the possibilities with the script
+### 4.1 Dishwasher
+With streak mode I was able to see, how long a dishwashing cycle runs. These graphs highlight the differences between different washing cycles. 
+
 ## 3. Disclaimer
 Use with caution and for your own responsibility. Use this SW as you wish. 
+
 
 Best regards, 
 Attila Czibere
 2023-06
-![image](https://github.com/gitusercz/SMGC/assets/32957697/34344161-5f4f-4643-8c80-58446c1c84dd)
+
