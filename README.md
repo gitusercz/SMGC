@@ -45,6 +45,16 @@ Other programs run faster but use more electricity (65C):
 ### 4.2 Drying machine
 The following graph was also created in streak mode, but this time connected to a drying machine. To prevent wrinkled clothes after a cycle it periodicaly starts again. On this graph it is nicely demonstrated how the preiodicity changes over time and at last it stops. 
 
+![Graph created during drying cycle](/resources/Drying_machine.png)
+
+### 4.3 Fridge
+I was interested in how much does it cost to run just the fridge daily. These values are measured in summer, when room temperature was ~24C in 24h mode of SMGC. I was expecting more frequent turn on / off periods of the compressor. Note the 15Watt spikes, which indicate a door opening event. 
+
+
+![24h_fridge run](/resources/Fridge.png)
+
+Or if you take a look at this graph, you can tell that I woke up at ~5:00 in the morning. 
+![24h_fridge run](/resources/Fridge2.png)
 
 
 ## 3. Disclaimer
