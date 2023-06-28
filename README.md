@@ -19,14 +19,14 @@ Take a look to the config.ini file. Lines, beginning with # are ignored, so you 
 ### 1.2 Use 'streak' mode
 There are two working modes for **SMGC**. 
 
-**Streak:** Graph's first measurement point will be the first value, that is more than 0.00 Watt. Graph's last measurement point is when the power value drops to 0.00 Watts. When this happens, streak is finished graph is created. 
+**Streak:** Graph's first measurement point will be the first value, that is more than 0.00 Watt. Graph's last measurement point is when the power value drops to 0.00 Watts. When this happens, streak is finished and graph is created. 
 
-**24h:** 24 Hour mode. Each day at midnight a new measurement starts. Each measurement point is recorded. A 23:59:59 graph is closed and drawed. In this mode the script does not pay attention to the power values, everything is logged. Graph is created daily, therefore the x axis always spans from 0 to 24 hour. 
+**24h:** 24 Hour mode. Each day at midnight a new measurement starts. Each measurement point is recorded. A 23:59:59 graph is closed and drawed. In this mode power values do not trigger graph creation, everything is logged, graph is created daily. Therefore the x axis always spans from 0 to 24 hour. 
 
 ## 2 Using the plug
 To set it up, enter the correct IP address to the config file. With a browser on the same subnet, navigate to [ipaddress]/meter/0 to make sure that Shelly works. 
 
-Then open the config.ini file, set '24h' or 'streak' as workmode. Add a prefix for the graph file to be named. Then run the main.py on your computer. I personally run SMGC on a RaspberryPi,, but it does not matter if it is a PC or something else. 
+Then open the config.ini file, set '24h' or 'streak' as workmode. Add a prefix for the graph file to be named. Then run the main.py on your computer. I personally run SMGC on a RaspberryPi, but it does not matter if it is a PC or something else. 
 
 When streak is over or midnight passes, the graph file is ready. And saved into a subfolder. 
 
@@ -53,7 +53,7 @@ I was interested in how much does it cost to run just the fridge daily. These va
 
 ![24h_fridge run](/resources/Fridge.png)
 
-Or if you take a look at this graph, you can tell that I woke up at ~5:00 in the morning. 
+Or if you take a look at this graph, you can tell that someone opened the fridge at ~5:00 in the morning. 
 ![24h_fridge run](/resources/Fridge2.png)
 
 
