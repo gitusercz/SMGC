@@ -32,7 +32,20 @@ When streak is over or midnight passes, the graph file is ready. And saved into 
 
 ## 4. Some example graphs depicting the possibilities with the script
 ### 4.1 Dishwasher
-With streak mode I was able to see, how long a dishwashing cycle runs. These graphs highlight the differences between different washing cycles. 
+With streak mode I was able to see, how long a dishwashing cycle runs. These graphs highlight the differences between different washing cycles. On my dishwashing machine there is a (default) 50C ECO mode, which is supposed to use the minimal required electricity and water: 
+![Graph created during 50C ECO run](/resources/50CECO.png)
+
+Other programs run faster but use more electricity (65C): 
+
+![Graph created during 50C ECO run](/resources/65C.png)
+
+70C: 
+![Graph created during 50C ECO run](/resources/70C.png)
+
+### 4.2 Drying machine
+The following graph was also created in streak mode, but this time connected to a drying machine. To prevent wrinkled clothes after a cycle it periodicaly starts again. On this graph it is nicely demonstrated how the preiodicity changes over time and at last it stops. 
+
+
 
 ## 3. Disclaimer
 Use with caution and for your own responsibility. Use this SW as you wish. 
